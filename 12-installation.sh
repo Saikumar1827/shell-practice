@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 if [ $USERID -ne 0 ]; then
-    eco "ERROR:: please run this script with root privelege"
+    echo "ERROR:: please run this script with root privelege"
     exit 1 # failure is other than 0
 fi    
 
